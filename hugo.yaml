@@ -1,0 +1,24 @@
+baseURL: "https://anujtaley.github.io/"
+languageCode: "en-us"
+title: "Anuj Taley / Personal Homepage"
+theme: "ink"
+
+pagination:
+  pagerSize: 10
+
+params:
+  author: "Anuj Taley"
+  description: "Software Engineer / Tinkerer"
+  mainSections: ["posts"]
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Projects"
+      url: "/#projects"
+      weight: 2
+    - name: "Blog"
+      url: "/posts/"
+      weight: 3
